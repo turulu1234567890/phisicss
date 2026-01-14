@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ball Repel Field</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<div id="controls">
+  <div class="row">
+    <label>Repel Radius <span id="repelRadiusVal">160</span>px</label>
+    <input id="repelRadius" type="range" min="20" max="400" value="160">
+  </div>
+
+  <div class="row">
+    <label>Repel Strength <span id="repelStrengthVal">2400</span></label>
+    <input id="repelStrength" type="range" min="0" max="8000" value="2400">
+  </div>
+
+  <div class="row">
+    <label><input id="spawnOnRelease" type="checkbox" checked> Spawn on release</label>
+  </div>
+
+  <div class="row">
+    <button id="resetBtn">Reset field</button>
+  </div>
+
+  <div class="row small">
+    Balls: <span id="ballCountDisplay">0</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

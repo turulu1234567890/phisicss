@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #0e0e11;
+  font-family: system-ui, sans-serif;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+}
+
+#controls {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  background: rgba(20,20,30,0.9);
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.small {
+  opacity: 0.8;
+  font-size: 0.9em;
+}
