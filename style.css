@@ -30,3 +30,17 @@ canvas {
   opacity: 0.8;
   font-size: 0.9em;
 }
+
+#hint{
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  backdrop-filter: blur(4px);
+  z-index: 10000;
+  max-width: 220px;
+}
